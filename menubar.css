@@ -208,7 +208,7 @@
 }
 .home-section{
   position: relative;
-  background: #E4E9F7;
+  background: url(https://images.unsplash.com/photo-1544306094-e2dcf9479da3) no-repeat;
   min-height: 100vh;
   top: 0;
   left: 78px;
@@ -252,6 +252,17 @@
 
 
 
+
+
+section {
+ background-color: red;
+}
+
+
+
+
+
+
 .modal__title {
   color: black;
 }
@@ -281,7 +292,6 @@
 }
 
 .modal-content {
-  background-color: #968989;
   margin: 5% auto;
   padding: 20px;
   height: 75vh;
@@ -291,6 +301,10 @@
 margin-left: 17%;
 animation-name:modalopen;
 animation-duration:1s;
+box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+border-radius: 5px;
+background: inherit;
+overflow: hidden;
 }  
 
 .close {
