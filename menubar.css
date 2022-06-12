@@ -254,15 +254,6 @@
 
 
 
-section {
- background-color: red;
-}
-
-
-
-
-
-
 .modal__title {
   color: black;
 }
@@ -302,15 +293,10 @@ margin-left: 17%;
 animation-name:modalopen;
 animation-duration:1s;
 box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-border-radius: 10px;
+border-radius: 5px;
 background: inherit;
 overflow: hidden;
-background-color: rgba(255, 255, 255, .15);   
-backdrop-filter: blur(5px);
 }  
-
-
-
 
 .close {
   color: #ccc;
@@ -334,12 +320,16 @@ backdrop-filter: blur(5px);
 }
 
 
-.loremipsum {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #ffffff;
-  text-align: center;
-  margin-top: 1em;
+.home-section-content {
+
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 80%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0,0.5);
+  margin-left: 17%;
+
 }
-
-
