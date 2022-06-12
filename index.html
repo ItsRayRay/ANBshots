@@ -18,66 +18,45 @@
     </div>
     <ul class="nav-list">
       <li>
-          <i class='bx bx-search' ></i>
-         <input type="text" placeholder="Search...">
-         <span class="tooltip">Search</span>
+          <i class='bx-search' ></i>
       </li>
       <li>
-        <a href="#">
-          <i class='bx bx-grid-alt'></i>
-          <span class="links_name">Dashboard</span>
+        <a href="#" id="home_btn">
+          <i class='bx bx-home' ></i>
+          <span class="links_name">Home</span>
         </a>
-         <span class="tooltip">Dashboard</span>
+         <span class="tooltip">Home</span>
       </li>
       <li>
        <a href="#">
-         <i class='bx bx-user' ></i>
-         <span class="links_name">User</span>
+         <i class='bx bx-group' ></i>
+         <span class="links_name">over ons</span>
        </a>
-       <span class="tooltip">User</span>
+       <span class="tooltip">over ons</span>
      </li>
      <li>
        <a href="#">
-         <i class='bx bx-chat' ></i>
-         <span class="links_name">Messages</span>
+        <i class='bx bx-camera-movie'></i>
+         <span class="links_name">diensten</span>
        </a>
-       <span class="tooltip">Messages</span>
+       <span class="tooltip">diensten</span>
      </li>
      <li>
        <a href="#">
-         <i class='bx bx-pie-chart-alt-2' ></i>
-         <span class="links_name">Analytics</span>
+        <i class='bx bx-film' ></i>
+         <span class="links_name">portfolio</span>
        </a>
-       <span class="tooltip">Analytics</span>
+       <span class="tooltip">portfolio</span>
      </li>
      <li>
        <a href="#">
-         <i class='bx bx-folder' ></i>
-         <span class="links_name">File Manager</span>
+        <i class='bx bx-chat'></i>
+         <span class="links_name">Contact</span>
        </a>
-       <span class="tooltip">Files</span>
+       <span class="tooltip">Contact</span>
      </li>
+
      <li>
-       <a href="#">
-         <i class='bx bx-cart-alt' ></i>
-         <span class="links_name">Order</span>
-       </a>
-       <span class="tooltip">Order</span>
-     </li>
-     <li>
-       <a href="#">
-         <i class='bx bx-heart' ></i>
-         <span class="links_name">Saved</span>
-       </a>
-       <span class="tooltip">Saved</span>
-     </li>
-     <li>
-       <a href="#">
-         <i class='bx bx-cog' ></i>
-         <span class="links_name">Setting</span>
-       </a>
-       <span class="tooltip">Setting</span>
-     </li>
      <li class="profile">
          <div class="profile-details">
            <!--<img src="profile.jpg" alt="profileImg">-->
@@ -103,17 +82,9 @@
         <div id="modal" class="modal">
           <div class="modal-content">
            
-              <h3 class="modal__title">Add a book</h3>
+              <h3 class="modal__title">Lorem</h3>
               <form action="booklist.html" method="post">
-                <span class="close">&times;</span>
-                  <input type="text" name="title" id="title" placeholder="Title">
-      
-                  <input type="text" name="author" id="author" placeholder="Author">
-      
-                  <input type="text" name="genre" id="genre" placeholder="Genre">
-      
-                  <input type="text" name="review" id="pages" placeholder="Pages">
-                  <input id="submitBtn" type="submit" value="Submit">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde velit earum natus, culpa distinctio dicta perferendis rem repudiandae ad fugit, exercitationem quo vero cum saepe, aperiam atque nulla praesentium rerum.</p>
               </form>
           </div>
       
@@ -156,7 +127,7 @@ const modal = document.getElementById("modal")
 const modalBtn = document.getElementById("modalBtn")
 
 
-const testButton = document.querySelector(".links_name")
+const testButton = document.querySelector("#home_btn")
 
 
 testButton.addEventListener("click", openModal);
