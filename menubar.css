@@ -238,11 +238,11 @@
   }
 }
 
+/* Just styling the content of the div, the *magic* in the previous rules */
 
 
 
 /* Just styling the content of the div, the *magic* in the previous rules */
-
 
 
 
@@ -309,6 +309,7 @@ overflow: hidden;
   }
 }
 
+
   
 .home-section-content {
 
@@ -346,3 +347,4 @@ overflow: hidden;
     height: 100%;
   }
 }
+
