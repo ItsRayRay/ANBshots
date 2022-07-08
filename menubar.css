@@ -247,46 +247,14 @@
 
 
 
-.modal__title {
-  color: black;
-}
-
-
-
 .button:hover{
   background-color: #4B4B4B;
   cursor: pointer;
 }
 
-.modal {
-  display: none; 
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  height: 100vh;
-  width: 100%;
-  overflow: auto;
-  background-color: rgba(255, 255, 255, .15);  
-  backdrop-filter: blur(20px);
-}
 
-.modal-content {
-  margin: 5% auto;
-  padding: 20px;
-  min-height: 75vh;
-  max-height: fit-content;
-  border: 1px solid #888;
-  width: 80%;
-  border-radius: 20px;
-margin-left: 17%;
-animation-name:modalopen;
-animation-duration:1s;
-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-border-radius: 5px;
-background: inherit;
-overflow: hidden;
-}  
+
+
 
 .close {
   color: #ccc;
@@ -300,14 +268,6 @@ overflow: hidden;
   cursor: pointer;
 }
 
-@keyframes modalopen {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
 
   
@@ -346,5 +306,26 @@ overflow: hidden;
     width: auto;
     height: 100%;
   }
+}
+
+.modal {
+  
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+ margin-left: 18%;
+  border: 1px solid #888;
+  width: 80%;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
